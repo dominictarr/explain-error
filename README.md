@@ -30,7 +30,7 @@ output:
 `fs.stat` does not show where it was called from,
 but at least now you know what happened after that.
 
-``` js
+```
 Error: called an function that was expected to fail
     at /home/dominic/c/explain-error/example.js:11:9
     at /home/dominic/c/explain-error/example.js:5:13
