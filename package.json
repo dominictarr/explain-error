@@ -1,7 +1,7 @@
 {
   "name": "explain-error",
   "description": "",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/dominictarr/explain-error",
   "repository": {
     "type": "git",
@@ -11,5 +11,5 @@
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
-  "license": "MIT"  
+  "license": "MIT"
 }
