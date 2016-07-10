@@ -14,7 +14,7 @@ function removePrefix (a, b) {
 }
 
 var explain = module.exports = function (err, message) {
-  if(!(err.stack && err.name && err.message) {
+  if(!(err.stack && err.name && err.message)) {
     console.error(new Error('stackless error'))
     return err
   }
