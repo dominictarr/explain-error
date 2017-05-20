@@ -22,10 +22,14 @@ var explain = module.exports = function (err, message) {
   var _err = new Error(message)
   var stack = removePrefix(getStack(_err).slice(1), getStack(err)).join('\n')
 
+  _err.__proto__ = err
+
   _err.stack =
     _err.name + ': ' + _err.message + '\n' +
     stack + '\n  ' + err.stack
 
   return _err
 }
+
+
 
